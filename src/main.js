@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './assets/main.css'
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
@@ -18,3 +19,15 @@ const router = createRouter({
     routes,
 })
 createApp(App).use(store).use(router).mount('#app')
+=======
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import './assets/main.css'
+
+createApp(App)
+  .use(store)
+  .use(router)
+  .mount('#app')
+>>>>>>> ab97a0a (Initial commit: Add Vue.js project files)
